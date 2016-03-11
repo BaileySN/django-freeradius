@@ -54,6 +54,7 @@ class Nas(models.Model):
     NAS_TYPES = (
         ('cisco', 'cisco'),
         ('computone', 'computone'),
+        ('juniper', 'juniper'),
         ('livingston', 'livingston'),
         ('max40xx', 'max40xx'),
         ('multitech', 'multitech'),
